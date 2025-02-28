@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+header{
+    width: 1900px;
+    height: 340px;
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/ronaldounitedatleticotransfer_1200x768.png?VersionId=D6fapmJ8W5Qj6z1vpqZusEu1gL.H_79l);
+    background-position: center;
+    background-size: cover;
+}
+
+body{
+    background-color: #F1E1DD;
+}
+
+.flexivel{
+    display: flex;
+}
+
+.navbar{
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: gray;
+}
+#cabecalho{
+    padding-right: 83.65rem;
+    color: white;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #F1E1DD;
+    border-radius: 8px;
+   
+}
+
+.alongar{
+    max-width: 100%;
+    text-align: center;
+    padding-left: 15px;
+    color: #cc4331;
+    font-size: 40px;
+}
